@@ -17,6 +17,9 @@
         "addressSpaces": {
             "type": "array"
         },
+        "ipv6Enabled": {
+            "type": "bool"
+        },
         "subnetCount": {
             "type": "int"
         },
@@ -32,6 +35,15 @@
         "subnet1_addressRange": {
             "type": "string"
         },
+        "ddosProtectionPlanEnabled": {
+            "type": "bool"
+        },
+        "firewallEnabled": {
+            "type": "bool"
+        },
+        "bastionEnabled": {
+            "type": "bool"
+        }
     },
     "variables": {},
     "resources": [

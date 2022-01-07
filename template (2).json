@@ -17,9 +17,6 @@
         "addressSpaces": {
             "type": "array"
         },
-        "ipv6Enabled": {
-            "type": "bool"
-        },
         "subnetCount": {
             "type": "int"
         },

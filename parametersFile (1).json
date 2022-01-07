@@ -20,7 +20,7 @@
       ]
     },
     "ipv6Enabled": {
-      "value": false
+      "value": "false"
     },
     "subnetCount": {
       "value": 2
@@ -38,13 +38,13 @@
       "value": "10.1.1.0/24"
     },
     "ddosProtectionPlanEnabled": {
-      "value": false
+      "value": "false"
     },
     "firewallEnabled": {
-      "value": false
+      "value": "false"
     },
     "bastionEnabled": {
-      "value": false
+      "value": "false"
     }
   }
 }

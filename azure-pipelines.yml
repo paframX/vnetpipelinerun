@@ -19,7 +19,7 @@ steps:
     resourceGroupName: 'PipeTest_RG'
     location: 'East US'
     templateLocation: 'URL of the file'
-    csmFileLink: 'templatehttps://raw.githubusercontent.com/paframX/vnetpipelinerun/master/template%20(2).json'
+    csmFileLink: 'https://raw.githubusercontent.com/paframX/vnetpipelinerun/master/template%20(2).json'
     csmParametersFileLink: 'https://raw.githubusercontent.com/paframX/vnetpipelinerun/master/parametersFile%20(1).json'
     deploymentMode: 'Incremental'
     deploymentName: 'VnetRuns'

@@ -32,15 +32,6 @@
         "subnet1_addressRange": {
             "type": "string"
         },
-        "ddosProtectionPlanEnabled": {
-            "type": "bool"
-        },
-        "firewallEnabled": {
-            "type": "bool"
-        },
-        "bastionEnabled": {
-            "type": "bool"
-        }
     },
     "variables": {},
     "resources": [

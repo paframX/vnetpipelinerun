@@ -1,0 +1,50 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "location": {
+      "value": "eastus"
+    },
+    "extendedLocation": {
+      "value": {}
+    },
+    "virtualNetworkName": {
+      "value": "demovnet"
+    },
+    "resourceGroup": {
+      "value": "PipeTest_RG"
+    },
+    "addressSpaces": {
+      "value": [
+        "10.1.0.0/16"
+      ]
+    },
+    "ipv6Enabled": {
+      "value": null
+    },
+    "subnetCount": {
+      "value": 2
+    },
+    "subnet0_name": {
+      "value": "Primary"
+    },
+    "subnet0_addressRange": {
+      "value": "10.1.0.0/24"
+    },
+    "subnet1_name": {
+      "value": "secondary"
+    },
+    "subnet1_addressRange": {
+      "value": "10.1.1.0/24"
+    },
+    "ddosProtectionPlanEnabled": {
+      "value": null
+    },
+    "firewallEnabled": {
+      "value": null
+    },
+    "bastionEnabled": {
+      "value": null
+    }
+  }
+}

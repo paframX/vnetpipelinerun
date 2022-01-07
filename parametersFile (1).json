@@ -34,14 +34,5 @@
     "subnet1_addressRange": {
       "value": "10.1.1.0/24"
     },
-    "ddosProtectionPlanEnabled": {
-      "value": null
-    },
-    "firewallEnabled": {
-      "value": null
-    },
-    "bastionEnabled": {
-      "value": null
-    }
   }
 }
